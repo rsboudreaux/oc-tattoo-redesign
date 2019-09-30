@@ -1,0 +1,17 @@
+{
+  "name": "DA_INK",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sergey",
+    "dev": "sergey --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sergey": "0.0.9",
+    "browser-sync": "2.26.7"
+  }
+}
