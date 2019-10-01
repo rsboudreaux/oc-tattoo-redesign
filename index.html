@@ -30,7 +30,12 @@
 	<meta name="twitter:image" content="/images/daink-social-share.jpg" />
 
 	<link rel="shortlink" href="http://oc-tattoo.netlify.com/" />
-
+	<style>
+		html {
+			overflow-x: "hidden";
+			overflow-y: "hidden"
+		}
+	</style>
 </head>
 
 <body class="home page-template page-template-index page-template-index-php page page-id-2">
@@ -187,8 +192,8 @@
 		});
 
 		slider.addEventListener('mousemove', (e) => {
-			if (!isDown) return; // stop the fn from running
-			e.stopImmediatePropagation();
+			if (!isDown) return;
+			e.preventDefault();
 			const x = e.pageX - slider.offsetLeft;
 			const walk = (x - startX) * 3;
 			slider.scrollLeft = scrollLeft - walk;
