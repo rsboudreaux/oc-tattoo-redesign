@@ -19997,7 +19997,7 @@ try {
             )
           )
             .add(
-              TweenMax.to($(this).find("h5"), 0.1, {
+              TweenMax.to($(this).find("h2"), 0.1, {
                 visibility: "visible",
                 opacity: 1
               })
