@@ -293,7 +293,7 @@ img {
 @font-face {
   font-family: "Gilroy-SemiBold";
   src: url("/fonts/31967B_4_0.eot");
-  src: url("/fonts/31967B_4_0.eot?#iefix")
+  src: url("/fonts/31967B_4_0_iefix.eot")
       format("embedded-opentype"),
     url("/fonts/31967B_4_0.woff2")
       format("woff2"),
@@ -307,7 +307,7 @@ img {
 @font-face {
   font-family: "Gilroy-ExtraBold";
   src: url("/fonts/31967B_F_0.eot");
-  src: url("/fonts/31967B_F_0.eot?#iefix")
+  src: url("/fonts/31967B_F_0_iefix.eot#iefix")
       format("embedded-opentype"),
     url("/fonts/31967B_F_0.woff2")
       format("woff2"),
