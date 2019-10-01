@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="https://www.w3.org/1999/xhtml" lang="en-US" prefix="og: https://ogp.me/ns#">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" prefix="og: http://ogp.me/ns#">
 
 <head>
 	<meta charset="UTF-8">
@@ -16,12 +16,12 @@
 	<title>Page Title Here</title>
 	<meta name="description" content="Page Description Here" />
 	<meta name="robots" content="noodp" />
-	<link rel="canonical" href="https://oc-tattoo.netlify.com/" />
+	<link rel="canonical" href="http://example.com/" />
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Page Title Here" />
 	<meta property="og:description" content="Page Description Here" />
-	<meta property="og:url" content="https://oc-tattoo.netlify.com/" />
+	<meta property="og:url" content="http://example.com/" />
 	<meta property="og:site_name" content="Site Name" />
 	<meta property="og:image" content="/images/daink-social-share.jpg" />
 	<meta name="twitter:card" content="summary" />
@@ -29,13 +29,13 @@
 	<meta name="twitter:title" content="Page Title Here" />
 	<meta name="twitter:image" content="/images/daink-social-share.jpg" />
 
-	<link rel="shortlink" href="https://oc-tattoo.netlify.com/" />
+	<link rel="shortlink" href="http://example.com/" />
 
 </head>
 
 <body class="home page-template page-template-index page-template-index-php page page-id-2">
 
-	<sergey-import src="nav" />
+	<sergey-import src="nav" /> 
 
 	<sergey-import src="header" />
 
@@ -56,7 +56,7 @@
 							<div class="underline"></div>
 							<h2>Tattoos</h2>
 						</div>
-						<a href="https://oc-tattoo.netlify.com/tattoos" class="intro-item">
+						<a href="http://example.com/tattoos" class="intro-item">
 							<div class="stripes-trigger">
 								<div class="image image-intro-opening atvImg">
 									<div class="atvImg-layer" data-img="/img/nav-slides/daink-opening-1.jpg"
@@ -78,7 +78,7 @@
 							<div class="underline"></div>
 							<h2>Studio &#038; Bio</h2>
 						</div>
-						<a href="https://oc-tattoo.netlify.com/studio-bio" class="intro-item">
+						<a href="http://example.com/studio-bio" class="intro-item">
 							<div class="stripes-trigger">
 								<div class="image image-intro-opening atvImg">
 									<div class="atvImg-layer" data-img="/img/nav-slides/daink-opening-2.jpg"
@@ -97,9 +97,9 @@
 						<div class="vertical-text-intro">MXVIII</div>
 						<div class="highlight highlight-intro">
 							<div class="underline-intro"></div>
-							<h5>News</h5>
+							<h2>News</h2>
 						</div>
-						<a href="https://oc-tattoo.netlify.com/news" class="intro-item">
+						<a href="http://example.com/news" class="intro-item">
 							<div class="stripes-trigger">
 								<div class="image-intro atvImg">
 									<div class="atvImg-layer" data-img="/img/nav-slides/daink-opening-5.jpg" alt="News">
@@ -118,9 +118,9 @@
 						<div class="vertical-text-intro">MXVVI</div>
 						<div class="highlight highlight-intro">
 							<div class="underline-intro"></div>
-							<h5>Merch</h5>
+							<h2>Merch</h2>
 						</div>
-						<a href="https://oc-tattoo.netlify.com/merch" class="intro-item">
+						<a href="http://example.com/merch" class="intro-item">
 							<div class="stripes-trigger">
 								<div class="image-intro atvImg">
 									<div class="atvImg-layer" data-img="/img/nav-slides/daink-opening-4.jpg"
@@ -139,9 +139,9 @@
 						<div class="vertical-text-intro">MXVV</div>
 						<div class="highlight highlight-intro">
 							<div class="underline-intro"></div>
-							<h5>Contacts</h5>
+							<h2>Contacts</h2>
 						</div>
-						<a href="https://oc-tattoo.netlify.com/contacts" class="intro-item">
+						<a href="http://example.com/contacts" class="intro-item">
 							<div class="stripes-trigger">
 								<div class="image-intro atvImg">
 									<div class="atvImg-layer" data-img="/img/nav-slides/daink-opening-3.jpg"
@@ -164,11 +164,10 @@
 	<div id="holder-newpage" class="hidden"></div>
 	<script type="text/javascript" defer src="/js/autoptimize.js"></script>
 	<script>
-		window.onload = function () {
-			const slider = document.querySelector('.intro-section');
-			let isDown = false;
-			let startX;
-			let scrollLeft;
+		const slider = document.querySelector('.intro-section');
+		let isDown = false;
+		let startX;
+		let scrollLeft;
 
 		slider.addEventListener('mousedown', (e) => {
 			isDown = true;
@@ -189,12 +188,11 @@
 
 		slider.addEventListener('mousemove', (e) => {
 			if (!isDown) return; // stop the fn from running
-			e.preventDefault();
+			e.stopImmediatePropagation ();
 			const x = e.pageX - slider.offsetLeft;
 			const walk = (x - startX) * 3;
 			slider.scrollLeft = scrollLeft - walk;
-		})
-	};
+		});
 	</script>
 </body>
 

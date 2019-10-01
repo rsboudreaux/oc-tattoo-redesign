@@ -1,10 +1,10 @@
 try {
   var daink = {
-    root: "https://da-ink.com/wp-content/themes/daink/",
+    root: "http://da-ink.com/wp-content/themes/daink/",
     url: {
-      site: "https://da-ink.com/",
+      site: "http://da-ink.com/",
       path: "/",
-      ajax: "https://da-ink.com/wp-admin/admin-ajax.php"
+      ajax: "http://da-ink.com/wp-admin/admin-ajax.php"
     }
   };
 } catch (e) {}
@@ -5596,7 +5596,7 @@ try {
       }),
       (dt.ajaxSettings.xhr = function() {
         try {
-          return new t.XMLhttpsRequest();
+          return new t.XMLHttpRequest();
         } catch (t) {}
       });
     var $e = {
@@ -5623,7 +5623,7 @@ try {
                 a.overrideMimeType(e.mimeType),
                 e.crossDomain ||
                   r["X-Requested-With"] ||
-                  (r["X-Requested-With"] = "XMLhttpsRequest");
+                  (r["X-Requested-With"] = "XMLHttpRequest");
               for (s in r) a.setRequestHeader(s, r[s]);
               (i = function(t) {
                 return function() {
@@ -6131,7 +6131,7 @@ try {
           : b
           ? e.createElementNS.call(
               e,
-              "https://www.w3.org/2000/svg",
+              "http://www.w3.org/2000/svg",
               arguments[0]
             )
           : e.createElement.apply(e, arguments);
@@ -6729,7 +6729,7 @@ try {
             t
           );
         })()),
-        (W = window.XMLhttpsRequest),
+        (W = window.XMLHttpRequest),
         (q = window.XDomainRequest),
         (j = window.WebSocket),
         (T = function(t, e) {
@@ -6810,12 +6810,12 @@ try {
                   })
                 );
               }),
-              (window.XMLhttpsRequest = function(e) {
+              (window.XMLHttpRequest = function(e) {
                 var i;
                 return (i = new W(e)), t(i), i;
               });
             try {
-              T(window.XMLhttpsRequest, W);
+              T(window.XMLHttpRequest, W);
             } catch (t) {}
             if (null != q) {
               window.XDomainRequest = function() {
@@ -7414,7 +7414,7 @@ try {
             a(
               "Style returned " +
                 e +
-                ". Are you running this code in a hidden iframe on Firefox? See https://bit.ly/getsizebug1"
+                ". Are you running this code in a hidden iframe on Firefox? See http://bit.ly/getsizebug1"
             ),
           e
         );
@@ -9148,12 +9148,12 @@ try {
   /*!
    * VERSION: 1.19.0
    * DATE: 2016-07-14
-   * UPDATES AND DOCS AT: https://greensock.com
+   * UPDATES AND DOCS AT: http://greensock.com
    *
    * Includes all of the following: TweenLite, TweenMax, TimelineLite, TimelineMax, EasePack, CSSPlugin, RoundPropsPlugin, BezierPlugin, AttrPlugin, DirectionalRotationPlugin
    *
    * @license Copyright (c) 2008-2016, GreenSock. All rights reserved.
-   * This work is subject to the terms at https://greensock.com/standard-license or for
+   * This work is subject to the terms at http://greensock.com/standard-license or for
    * Club GreenSock members, the software agreement that was issued with your membership.
    *
    * @author: Jack Doyle, jack@greensock.com
@@ -11362,7 +11362,7 @@ try {
             j = document,
             q = function(t) {
               return j.createElementNS
-                ? j.createElementNS("https://www.w3.org/1999/xhtml", t)
+                ? j.createElementNS("http://www.w3.org/1999/xhtml", t)
                 : j.createElement(t);
             },
             W = q("div"),
@@ -12339,7 +12339,7 @@ try {
             Lt = window.SVGElement,
             Dt = function(t, e, i) {
               var n,
-                r = j.createElementNS("https://www.w3.org/2000/svg", t),
+                r = j.createElementNS("http://www.w3.org/2000/svg", t),
                 o = /([a-z])([A-Z])/g;
               for (n in i)
                 r.setAttributeNS(
@@ -17746,11 +17746,11 @@ try {
   /*!
    * VERSION: 0.5.6
    * DATE: 2016-10-28
-   * UPDATES AND DOCS AT: https://greensock.com
+   * UPDATES AND DOCS AT: http://greensock.com
    *
    * @license Copyright (c) 2008-2016, GreenSock. All rights reserved.
    * SplitText is a Club GreenSock membership benefit; You must have a valid membership to use
-   * this code without violating the terms of use. Visit https://greensock.com/club/ to sign up or get more details.
+   * this code without violating the terms of use. Visit http://greensock.com/club/ to sign up or get more details.
    * This work is subject to the software agreement that was issued with your membership.
    *
    * @author: Jack Doyle, jack@greensock.com

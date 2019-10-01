@@ -49,7 +49,6 @@ a:hover {
 }
 abbr[title] {
   border-bottom: 0;
-  text-decoration: underline;
   text-decoration: underline dotted;
 }
 b,
@@ -248,8 +247,6 @@ img {
 }
 .image-intro {
   position: absolute;
-  top: 0;
-  right: 0;
   width: 260px;
   height: 650px;
   top: calc(50% - 325px);
@@ -649,7 +646,8 @@ body {
   background-color: #171717;
   background-repeat: repeat;
   background-size: 200px 200px;
-  overflow: visible;
+  overflow-x: visible;
+  overflow-y: hidden;
 }
 a,
 a:link,
@@ -691,7 +689,6 @@ h1 {
   margin: 0;
   padding: 0;
   letter-spacing: -3px;
-  line-height: 1;
   white-space: normal;
   text-align: left;
   padding-bottom: 20px;
@@ -1041,7 +1038,6 @@ button {
   background-color: #fff;
   position: absolute;
   transition-property: -webkit-transform;
-  transition-property: transform;
   transition-property: transform, -webkit-transform;
   transition-duration: 0.15s;
   transition-timing-function: ease;
@@ -1066,7 +1062,7 @@ button {
 }
 .hamburger--spin-r .hamburger-inner::after {
   transition: bottom 0.1s 0.3s ease-in,
-    -webkit-transform 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+   -webkit-transform 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   transition: bottom 0.1s 0.3s ease-in,
     transform 0.3s cubic-bezier(0.55, 0.055, 0.675, 0.19);
   transition: bottom 0.1s 0.3s ease-in,
