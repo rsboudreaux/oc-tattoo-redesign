@@ -1,10 +1,10 @@
 try {
   var daink = {
-    root: "http://da-ink.com/wp-content/themes/daink/",
+    root: "http://oc-tattoo.netlify.com/",
     url: {
-      site: "http://da-ink.com/",
+      site: "http://oc-tattoo.netlify.com/",
       path: "/",
-      ajax: "http://da-ink.com/wp-admin/admin-ajax.php"
+      ajax: "http://oc-tattoo.netlify.com/wp-admin/admin-ajax.php"
     }
   };
 } catch (e) {}
