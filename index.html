@@ -35,7 +35,7 @@
 
 <body class="home page-template page-template-index page-template-index-php page page-id-2">
 
-	<sergey-import src="nav" /> 
+	<sergey-import src="nav" />
 
 	<sergey-import src="header" />
 
@@ -164,12 +164,14 @@
 	<div id="holder-newpage" class="hidden"></div>
 	<script type="text/javascript" defer src="/js/autoptimize.js"></script>
 	<script>
-		const slider = document.querySelector('.items');
-		let isDown = false;
-		let startX;
-		let scrollLeft;
+		window.onload = function () {
+			const slider = document.querySelector('.items');
+			let isDown = false;
+			let startX;
+			let scrollLeft;
+		};
 
-		slider.addEventListener('mousedown', () => {
+		slider.addEventListener('mousedown', (e) => {
 			isDown = true;
 			slider.classList.add('active');
 			startX = e.pageX - slider.offsetLeft;
