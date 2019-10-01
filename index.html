@@ -165,11 +165,10 @@
 	<script type="text/javascript" defer src="/js/autoptimize.js"></script>
 	<script>
 		window.onload = function () {
-			const slider = document.querySelector('.items');
+			const slider = document.querySelector('.intro-section');
 			let isDown = false;
 			let startX;
 			let scrollLeft;
-		};
 
 		slider.addEventListener('mousedown', (e) => {
 			isDown = true;
@@ -194,7 +193,8 @@
 			const x = e.pageX - slider.offsetLeft;
 			const walk = (x - startX) * 3;
 			slider.scrollLeft = scrollLeft - walk;
-		});
+		})
+	};
 	</script>
 </body>
 
