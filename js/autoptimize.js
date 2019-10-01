@@ -1,10 +1,10 @@
 try {
   var daink = {
-    root: "http://oc-tattoo.netlify.com/",
+    root: "https://oc-tattoo.netlify.com/",
     url: {
-      site: "http://oc-tattoo.netlify.com/",
+      site: "https://oc-tattoo.netlify.com/",
       path: "/",
-      ajax: "http://oc-tattoo.netlify.com/wp-admin/admin-ajax.php"
+      ajax: "https://oc-tattoo.netlify.com/wp-admin/admin-ajax.php"
     }
   };
 } catch (e) {}
@@ -6131,7 +6131,7 @@ try {
           : b
           ? e.createElementNS.call(
               e,
-              "http://www.w3.org/2000/svg",
+              "https://www.w3.org/2000/svg",
               arguments[0]
             )
           : e.createElement.apply(e, arguments);
@@ -7414,7 +7414,7 @@ try {
             a(
               "Style returned " +
                 e +
-                ". Are you running this code in a hidden iframe on Firefox? See http://bit.ly/getsizebug1"
+                ". Are you running this code in a hidden iframe on Firefox? See https://bit.ly/getsizebug1"
             ),
           e
         );
@@ -9148,12 +9148,12 @@ try {
   /*!
    * VERSION: 1.19.0
    * DATE: 2016-07-14
-   * UPDATES AND DOCS AT: http://greensock.com
+   * UPDATES AND DOCS AT: https://greensock.com
    *
    * Includes all of the following: TweenLite, TweenMax, TimelineLite, TimelineMax, EasePack, CSSPlugin, RoundPropsPlugin, BezierPlugin, AttrPlugin, DirectionalRotationPlugin
    *
    * @license Copyright (c) 2008-2016, GreenSock. All rights reserved.
-   * This work is subject to the terms at http://greensock.com/standard-license or for
+   * This work is subject to the terms at https://greensock.com/standard-license or for
    * Club GreenSock members, the software agreement that was issued with your membership.
    *
    * @author: Jack Doyle, jack@greensock.com
@@ -11362,7 +11362,7 @@ try {
             j = document,
             q = function(t) {
               return j.createElementNS
-                ? j.createElementNS("http://www.w3.org/1999/xhtml", t)
+                ? j.createElementNS("https://www.w3.org/1999/xhtml", t)
                 : j.createElement(t);
             },
             W = q("div"),
@@ -12339,7 +12339,7 @@ try {
             Lt = window.SVGElement,
             Dt = function(t, e, i) {
               var n,
-                r = j.createElementNS("http://www.w3.org/2000/svg", t),
+                r = j.createElementNS("https://www.w3.org/2000/svg", t),
                 o = /([a-z])([A-Z])/g;
               for (n in i)
                 r.setAttributeNS(
@@ -17746,11 +17746,11 @@ try {
   /*!
    * VERSION: 0.5.6
    * DATE: 2016-10-28
-   * UPDATES AND DOCS AT: http://greensock.com
+   * UPDATES AND DOCS AT: https://greensock.com
    *
    * @license Copyright (c) 2008-2016, GreenSock. All rights reserved.
    * SplitText is a Club GreenSock membership benefit; You must have a valid membership to use
-   * this code without violating the terms of use. Visit http://greensock.com/club/ to sign up or get more details.
+   * this code without violating the terms of use. Visit https://greensock.com/club/ to sign up or get more details.
    * This work is subject to the software agreement that was issued with your membership.
    *
    * @author: Jack Doyle, jack@greensock.com
