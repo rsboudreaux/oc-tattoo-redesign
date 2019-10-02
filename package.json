@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "sergey",
-    "dev": "sergey --watch --root=./public/"
+    "dev": "sergey --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sergey": "0.0.9"
+    "sergey": "0.0.1"
   }
 }
