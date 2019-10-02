@@ -5,13 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "sergey",
-    "dev": "sergey --watch"
+    "dev": "sergey --watch --root=./public/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "sergey": "0.0.9",
-    "browser-sync": "2.26.7"
+    "sergey": "0.0.9"
   }
 }
