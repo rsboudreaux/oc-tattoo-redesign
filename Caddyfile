@@ -1,0 +1,11 @@
+http://localhost:2015 {
+	root /home/scott/Projects/OC-TATTOO
+	tls off
+	ext / .html
+
+    redir 301 {
+        if {path} not /
+        if {path} ends_with /
+        / {rewrite_uri}
+    },
+}
