@@ -105,8 +105,7 @@ figure {
   margin: 1em 40px;
 }
 hr {
-  -webkit-box-sizing: content-box;  
-  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
 
   height: 0;
@@ -156,7 +155,6 @@ fieldset {
 }
 legend {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   color: inherit;
   display: table;
@@ -170,7 +168,6 @@ textarea {
 [type="checkbox"],
 [type="radio"] {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
 }
@@ -202,8 +199,6 @@ textarea {
   width: 100%;
   height: 100%;
   -webkit-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 .atvImg-container.over .atvImg-shadow {
@@ -1380,7 +1375,7 @@ html.browser-safari .typo-nav {
 }
 @media only screen and (max-width: 960px) {
   .opening {
-    height: 70vh;
+    height: 70vh
   }
 }
 .massive-typo {
@@ -1407,7 +1402,7 @@ html.browser-safari .typo-nav {
   transform: scale(0.85);
 }
 .typo-logo {
-  background-image: url("img/background/oc-tattoo-logo.png");
+  background-image: url("/img/background/oc-tattoo-logo.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 80%;
