@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="13px" viewBox="0 0 24 13" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - https://www.bohemiancoding.com/sketch -->
+    <title>Index</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header" transform="translate(-1343.000000, -11.000000)" fill="#FFFFFF">
+            <g id="Index" transform="translate(1343.000000, 11.000000)">
+                <rect x="0" y="0" width="2" height="13" rx="0.5"></rect>
+                <rect x="22" y="0" width="2" height="13" rx="0.5"></rect>
+                <rect x="11" y="0" width="2" height="13" rx="0.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

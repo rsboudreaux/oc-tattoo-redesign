@@ -1,0 +1,6 @@
+.netlify
+netlify.toml
+.vscode
+vscode-workspace.code-workspace
+Caddyfile
+_redirects

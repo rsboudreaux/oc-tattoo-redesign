@@ -1,0 +1,1 @@
+No Content: webpack:///./view/section/science/data/index.js

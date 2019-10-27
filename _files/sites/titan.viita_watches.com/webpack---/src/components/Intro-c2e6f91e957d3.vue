@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"intro"}},[_c('div',{staticClass:"intro-bg-outer"},[_c('div',{staticClass:"intro-bg-pic-container1"},[_c('img',{staticClass:"intro-bg-pic",attrs:{"src":"/src/assets/titan_intro_bg1_tiny.jpg","alt":"VIITA Cliff"}})]),_vm._v(" "),_c('div',{staticClass:"intro-bg-pic-container2"},[_c('img',{staticClass:"intro-bg-pic",attrs:{"src":"/src/assets/titan_intro_bg2_tiny.jpg","alt":"VIITA Mountain"}})]),_vm._v(" "),_c('div',{staticClass:"intro-bg-pic-container3"},[_c('img',{staticClass:"intro-bg-pic",attrs:{"src":"/src/assets/titan_intro_bg5_tiny.jpg","alt":"VIITA Runner"}})]),_vm._v(" "),_c('div',{staticClass:"intro-bg-pic-container4"},[_c('img',{staticClass:"intro-bg-pic",attrs:{"src":"/src/assets/titan_intro_bg4_tiny.jpg","alt":"VIITA Street"}})])]),_vm._v(" "),_c('div',{staticClass:"intro-headline-outer"},[_c('h1',{staticClass:"intro-headline"},[_vm._v("NATURE'S"),_c('br'),_vm._v("STRONGEST")]),_vm._v(" "),_c('h1',{staticClass:"intro-white"},[_vm._v("CRAFTED INTO A "),_c('br'),_vm._v(" SMARTWATCH.")]),_vm._v(" "),_c('h1',{staticClass:"intro-text"},[_vm._v("Manufactured out of Titanium, created to push you through your most challenging adventures.")])]),_vm._v(" "),_c('div',{staticClass:"intro-watch-outer-mobile"},[_c('div',{staticClass:"intro-twister-mobile"},[_c('img',{staticClass:"intro-watch-mobile",attrs:{"src":"/src/assets/viita_titan_main.png","alt":"VIITA Titan Watch"}})])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-1db274e8","hasScoped":false,"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/Intro.vue
+// module id = 32
+// module chunks = 0

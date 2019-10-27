@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1024px) {
+    .typo-nav {
+        opacity: 0.025 !important;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .tattoo-share {
+        margin-bottom: 28px;
+    }
+    .tattoo-share .view-trigger {
+        font-size: 13px !important;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .intro-stripe-1 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .intro-stripe-2 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .intro-stripe-3 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .intro-stripe-4 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .intro-stripe-5 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .intro-stripe-6 {
+        display: none;
+    }
+}

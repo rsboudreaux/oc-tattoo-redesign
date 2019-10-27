@@ -1,0 +1,43 @@
+@media only screen and (max-width: 700px) {
+    .split-text {
+        max-width: calc(100% - 50px);
+    }
+}
+@media only screen and (max-width: 700px) {
+    .footer-nav-main {
+        display: table;
+        height: 300px;
+    }
+    @media only screen and (max-width: 700px) {
+        .footer-50 {
+            position: relative;
+            display: block;
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+    }
+    @media only screen and (max-width: 700px) {
+        .footer-33 {
+            width: 100%;
+            line-height: 70px;
+        }
+        .footer-bottom {
+            height: 210px;
+            background: #0f0f0f;
+        }
+    }
+    @media only screen and (max-width: 700px) {
+        .footer-left {
+            text-align: center;
+            left: 0;
+        }
+    }
+    @media only screen and (max-width: 700px) {
+        .footer-right {
+            text-align: center;
+            right: 0;
+        }
+    }
+}

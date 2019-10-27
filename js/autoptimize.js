@@ -9529,19 +9529,19 @@ try {
                     })).add(TweenMax.to($(this).find(".intro-stripe-2"), .55, {
                         clip: "rect(0px, 400px, 800px, 0)",
                         ease: Expo.easeOut
-                    }), "=-0.55").add(TweenMax.to($(this).find(".intro-stripe-3"), .55, {
+                    })).add(TweenMax.to($(this).find(".intro-stripe-3"), .55, {
                         clip: "rect(0px, 400px, 800px, 0)",
                         ease: Expo.easeOut
-                    }), "=-0.55").add(TweenMax.to($(this).find(".intro-stripe-4"), .55, {
+                    })).add(TweenMax.to($(this).find(".intro-stripe-4"), .55, {
                         clip: "rect(0px, 400px, 800px, 0)",
                         ease: Expo.easeOut
-                    }), "=-0.55").add(TweenMax.to($(this).find(".intro-stripe-5"), .55, {
+                    })).add(TweenMax.to($(this).find(".intro-stripe-5"), .55, {
                         clip: "rect(0px, 400px, 800px, 0)",
                         ease: Expo.easeOut
-                    }), "=-0.55").add(TweenMax.to($(this).find(".intro-stripe-6"), .55, {
+                    })).add(TweenMax.to($(this).find(".intro-stripe-6"), .55, {
                         clip: "rect(0px, 400px, 800px, 0)",
                         ease: Expo.easeOut
-                    }), "=-0.55"), o.play()
+                    })), o.play()
                 }).on("mouseleave", function() {
                     o.kill(), s = new TimelineMax({
                         paused: !0,
@@ -9552,19 +9552,19 @@ try {
                     })).add(TweenMax.to($(this).find(".intro-stripe-2"), .3, {
                         clip: "rect(800px, 400px, 800px, 0)",
                         ease: Expo.easeOut
-                    }), "=-0.30").add(TweenMax.to($(this).find(".intro-stripe-3"), .3, {
+                    })).add(TweenMax.to($(this).find(".intro-stripe-3"), .3, {
                         clip: "rect(800px, 400px, 800px, 0)",
                         ease: Expo.easeOut
-                    }), "=-0.30").add(TweenMax.to($(this).find(".intro-stripe-4"), .3, {
+                    })).add(TweenMax.to($(this).find(".intro-stripe-4"), .3, {
                         clip: "rect(800px, 400px, 800px, 0)",
                         ease: Expo.easeOut
-                    }), "=-0.30").add(TweenMax.to($(this).find(".intro-stripe-5"), .3, {
+                    })).add(TweenMax.to($(this).find(".intro-stripe-5"), .3, {
                         clip: "rect(800px, 400px, 800px, 0)",
                         ease: Expo.easeOut
-                    }), "=-0.30").add(TweenMax.to($(this).find(".intro-stripe-6"), .3, {
+                    })).add(TweenMax.to($(this).find(".intro-stripe-6"), .3, {
                         clip: "rect(800px, 400px, 800px, 0)",
                         ease: Expo.easeOut
-                    }), "=-0.30"), s.play()
+                    })), s.play()
                 }), $(".reveal-tattoo").hover(function() {
                     var t = new TimelineMax({});
                     t.add(TweenMax.to(".image-nav-tattoo", .75, {

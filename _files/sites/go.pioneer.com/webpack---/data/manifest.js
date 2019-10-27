@@ -1,0 +1,1 @@
+No Content: webpack:///./data/manifest.js

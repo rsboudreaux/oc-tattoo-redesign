@@ -1,0 +1,8 @@
+module.exports = {"materials":[{"id":0,"colorStart":"#BFBBB5","colorStop":"#F7F3EA"},{"id":1,"colorStart":"#FFC3CA","colorStop":"#A1A7E9"},{"id":2,"colorStart":"#E9D985","colorStop":"#52489C"},{"id":3,"colorStart":"#E9D985","colorStop":"#679AA4"},{"id":4,"colorStart":"#DCD9E2","colorStop":"#4489AC"},{"id":5,"colorStart":"#B4ED50","colorStop":"#50BB9C"},{"id":6,"colorStart":"#442CB2","colorStop":"#AD60CF"},{"id":7,"colorStart":"#FFBFBF","colorStop":"#027AFF"},{"id":8,"colorStart":"#FFA1A1","colorStop":"#FEB47E"},{"id":9,"colorStart":"#DCD9E2","colorStop":"#5F96B4"},{"id":10,"colorStart":"#003973","colorStop":"#E5E5BE"},{"id":11,"colorStart":"#FF635A","colorStop":"#773CFB"},{"id":12,"colorStart":"#E07B7E","colorStop":"#FDEFBD"}]}
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/shared-components/ThreeBackground/materials.json
+// module id = 312
+// module chunks = 0

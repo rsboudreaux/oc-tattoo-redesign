@@ -1,0 +1,1 @@
+No Content: webpack:///./view/common/infographic/corn/shaders/corn-ring.fs

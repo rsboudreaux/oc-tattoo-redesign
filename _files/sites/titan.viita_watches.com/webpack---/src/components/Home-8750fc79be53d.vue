@@ -1,0 +1,11 @@
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"home"}},[_c('div',{staticClass:"home-outer"},[_vm._m(0),_vm._v(" "),_vm._m(1),_vm._v(" "),_vm._m(2),_vm._v(" "),_vm._m(3),_vm._v(" "),_c('div',{staticClass:"home-center-outer"},[_c('h1',{staticClass:"home-titan-center"},[_vm._v(_vm._s(_vm.title))]),_vm._v(" "),_vm._m(4),_vm._v(" "),_vm._m(5)])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home-blackbox-top-outer"},[_c('div',{staticClass:"home-blackbox home-blackbox-top"})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home-blackbox-right-outer"},[_c('div',{staticClass:"home-blackbox home-blackbox-right"})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home-blackbox-bottom-outer"},[_c('div',{staticClass:"home-blackbox home-blackbox-bottom"})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home-blackbox-left-outer"},[_c('div',{staticClass:"home-blackbox home-blackbox-left"})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home-viita-logo-vertical-outer"},[_c('div',{staticClass:"home-viita-logo-vertical"},[_c('img',{attrs:{"src":"/src/assets/viita_logo_white.svg","alt":"VIITA Titan Logo"}})])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"home-hrv-outer"},[_c('div',{staticClass:"home-hrv"},[_vm._v(" HRV ")]),_vm._v(" "),_c('div',{staticClass:"home-hrv-line"})])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+export default esExports
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-3b6839c5","hasScoped":false,"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/components/Home.vue
+// module id = 28
+// module chunks = 0

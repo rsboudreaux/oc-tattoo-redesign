@@ -1,0 +1,8 @@
+module.exports = {"about":{"title":"Hello, I’m <span class='about-content__big-title'>Raoul Gaillard</span>.<br> I’m looking for <span class='about-content__big-title'>cool</span> works.","content":"I’m a french front-end developer at <a class='about-content__link' href='http://unlikely.studio/' target='_blank'>Unlikely Studio</a>. I studied at Hetic a school based in Paris. I love building interfaces and code interactive productions.<br><br> I’m looking for a full time position from January 2019 as a front-end developer in the US.<br><br> I had two internships at <a class='about-content__link' href='http://www.stinkstudios.com/' target='_blank'>Stinkstudios Paris</a> in 2015 and 2016 and at <a class='about-content__link' href='http://watsondg.com/' target='_blank'>Watson Design Group</a> in Los Angeles in 2017.<br><br> I love interactive design, development and building electric skateboards.","socialTitle":"You can find me here","socialNetworks":[{"name":"twitter","link":"https://twitter.com/RaoulGaillard"},{"name":"email","link":"mailto:raoul.gaillard@hetic.net"},{"name":"pinterest","link":"https://pinterest.com/raoulgaillard/"},{"name":"linkedin","link":"https://www.linkedin.com/in/raoul-gaillard-b71a887a/"}]}}
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/spa/About/about.json
+// module id = 313
+// module chunks = 0

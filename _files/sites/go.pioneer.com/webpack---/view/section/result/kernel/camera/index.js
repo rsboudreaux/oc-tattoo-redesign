@@ -1,0 +1,1 @@
+No Content: webpack:///./view/section/result/kernel/camera/index.js

@@ -1,0 +1,1 @@
+No Content: webpack:///./view/section/result/kernel/scene/kernel-obj/material/kernel-material.js

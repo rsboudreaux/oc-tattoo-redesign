@@ -1,0 +1,1 @@
+No Content: webpack:///./view/section/legal/index.js

@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cinzel Regular'), local('Cinzel-Regular'), url(../fonts.gstatic.com/s/cinzel/v9/8vIJ7ww63mVu7gt79mT-.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cinzel Bold'), local('Cinzel-Bold'), url(../fonts.gstatic.com/s/cinzel/v9/8vIK7ww63mVu7gtzTUHuE2Zf.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cinzel';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Cinzel Black'), local('Cinzel-Black'), url(../fonts.gstatic.com/s/cinzel/v9/8vIK7ww63mVu7gtzdUPuE2Zf.ttf) format('truetype');
+}

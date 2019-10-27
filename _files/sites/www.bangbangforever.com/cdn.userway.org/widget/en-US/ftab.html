@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <base href="https://cdn.userway.org/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.userway.org/frontend_first_tab/stylesheets/application.css?v=1569021686">
+    <link rel="stylesheet" type="text/css" href="https://cdn.userway.org/frontend_first_tab/fonts/metropolis/metropolis.css?v=1569021686">
+    <script type="text/javascript">
+        var applicationConfig = {
+            "cdn": "https://cdn.userway.org/"
+        };
+        var locales = {
+            "title": "Quick Accessibility Menu",
+            "enable_accessibility": "Enable accessibility for visually impaired",
+            "disable_accessibility": "Disable accessibility for visually impaired",
+            "skip": "Skip to main content",
+            "open": "Open the accessibility menu"
+        };
+        var renderFirstTabContent;
+    </script>
+    <script type="text/javascript" src="https://cdn.userway.org/frontend_first_tab/javascripts/application.js?v=1569021686"></script>
+</head>
+
+<body>
+    <div class="userway first-tab-menu">
+        <div class="widget accessibility-menu">
+            <div class="widget-header-wrapper flex-box">
+                <div class="widget-header flex-box">
+                    <div class="title">Accessibility Menu</div>
+                </div>
+
+                <div class="close first-tab-menu-close" role="button" tabindex="0">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.94977 6.94975L6.59621 7.30331C6.79148 7.49857 7.10806 7.49857 7.30332 7.30331L6.94977 6.94975ZM1.30332 0.596199C1.10806 0.400937 0.791477 0.400937 0.596215 0.596199C0.400953 0.791462 0.400953 1.10804 0.596215 1.30331L1.30332 0.596199ZM6.94977 6.94975L6.59621 7.30331C6.79148 7.49857 7.10806 7.49857 7.30332 7.30331L6.94977 6.94975ZM13.3033 1.30331C13.4986 1.10804 13.4986 0.791462 13.3033 0.596199C13.1081 0.400937 12.7915 0.400937 12.5962 0.596199L13.3033 1.30331ZM6.94977 6.94975L7.30332 6.5962C7.10806 6.40094 6.79148 6.40094 6.59621 6.5962L6.94977 6.94975ZM0.596215 12.5962C0.400953 12.7915 0.400953 13.108 0.596215 13.3033C0.791477 13.4986 1.10806 13.4986 1.30332 13.3033L0.596215 12.5962ZM6.94977 6.94975L7.30332 6.5962C7.10806 6.40094 6.79148 6.40094 6.59621 6.5962L6.94977 6.94975ZM12.5962 13.3033C12.7915 13.4986 13.1081 13.4986 13.3033 13.3033C13.4986 13.108 13.4986 12.7915 13.3033 12.5962L12.5962 13.3033ZM7.30332 6.5962L1.30332 0.596199L0.596215 1.30331L6.59621 7.30331L7.30332 6.5962ZM0.596215 1.30331L6.59621 7.30331L7.30332 6.5962L1.30332 0.596199L0.596215 1.30331ZM7.30332 7.30331L13.3033 1.30331L12.5962 0.596199L6.59621 6.5962L7.30332 7.30331ZM12.5962 0.596199L6.59621 6.5962L7.30332 7.30331L13.3033 1.30331L12.5962 0.596199ZM6.59621 6.5962L0.596215 12.5962L1.30332 13.3033L7.30332 7.30331L6.59621 6.5962ZM1.30332 13.3033L7.30332 7.30331L6.59621 6.5962L0.596215 12.5962L1.30332 13.3033ZM6.59621 7.30331L12.5962 13.3033L13.3033 12.5962L7.30332 6.5962L6.59621 7.30331ZM13.3033 12.5962L7.30332 6.5962L6.59621 7.30331L12.5962 13.3033L13.3033 12.5962Z" fill="white"></path>
+                </svg>
+                </div>
+            </div>
+
+            <div class="widget-content">
+                <div class="widget-form">
+
+                    <div class="menu-opt-item first-opt flex-box" tabindex="0" role="button" aria-labelledby="visuallyImpaired">
+                        <img class="menu-opt-item-icon" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjQsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0i0KHQu9C+0LlfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxsOm5vbmU7fQ0KCS5zdDF7ZmlsbDojM0M0NTY0O30NCjwvc3R5bGU+DQo8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTEuOSwxNi4xYy0xLDAtMi0wLjQtMi43LTEuMWMtMC44LTAuNy0xLjItMS43LTEuMy0yLjhjMC0wLjgsMC4yLTEuNiwwLjYtMi4zTDYsNy40QzQuNSw4LjcsMy4yLDEwLjIsMi4xLDEyDQoJYzAuOSwxLjYsNC41LDcsOS45LDdjMS41LDAsMy0wLjUsNC40LTEuMkwxNCwxNS40QzEzLjQsMTUuOSwxMi43LDE2LjEsMTEuOSwxNi4xeiIvPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTEwLDEyYzAsMC41LDAuMiwxLDAuNiwxLjRjMC41LDAuNSwxLjIsMC43LDEuOSwwLjVMMTAsMTEuNEMxMCwxMS42LDEwLDExLjgsMTAsMTJ6Ii8+DQo8Zz4NCgk8cGF0aCBjbGFzcz0ic3QxIiBkPSJNMTAuMSw1LjNjMC43LTAuMSwxLjMtMC4yLDEuOS0wLjJjNS40LDAsOSw1LjQsOS45LDdjLTAuNSwwLjktMS4xLDEuNy0xLjgsMi41Yy0wLjQsMC40LTAuMywxLDAuMSwxLjQNCgkJYzAuMSwwLjEsMC40LDAuMiwwLjYsMC4yYzAuMywwLDAuNi0wLjEsMC44LTAuM2MwLjktMS4xLDEuNy0yLjIsMi4zLTMuNGMwLjEtMC4zLDAuMS0wLjYsMC0wLjlDMjMuNywxMS4yLDE5LjUsMywxMiwzDQoJCWMtMC44LDAtMS42LDAuMS0yLjMsMC4zQzkuMSwzLjQsOC44LDMuOSw4LjksNC41QzkuMSw1LDkuNiw1LjMsMTAuMSw1LjN6Ii8+DQoJPHBhdGggY2xhc3M9InN0MSIgZD0iTTIzLjcsMjIuM2wtNS01TDE1LDEzLjZsLTAuNS0wLjVsLTMuNy0zLjdsLTAuNS0wLjVMNi45LDUuNUwxLjcsMC4zYy0wLjQtMC40LTEtMC40LTEuNCwwDQoJCWMtMC40LDAuNC0wLjQsMSwwLDEuNEw0LjYsNmMtMS45LDEuNi0zLjQsMy40LTQuNSw1LjVjLTAuMSwwLjMtMC4xLDAuNiwwLDAuOUMwLjMsMTIuOCw0LjUsMjEsMTIsMjFjMi4xLDAsNC4xLTAuNiw1LjgtMS44DQoJCWw0LjUsNC41YzAuMiwwLjIsMC40LDAuMywwLjcsMC4zczAuNS0wLjEsMC43LTAuM0MyNC4xLDIzLjMsMjQuMSwyMi43LDIzLjcsMjIuM3ogTTEwLDExLjRsMi40LDIuNGMtMC42LDAuMi0xLjQsMC0xLjktMC41DQoJCUMxMC4yLDEzLDEwLDEyLjUsMTAsMTJDMTAsMTEuOCwxMCwxMS42LDEwLDExLjR6IE0xMiwxOWMtNS40LDAtOS01LjQtOS45LTdDMy4yLDEwLjIsNC41LDguNyw2LDcuNGwyLjUsMi41DQoJCWMtMC40LDAuNy0wLjYsMS41LTAuNiwyLjNDOCwxMy4zLDguNCwxNC4zLDkuMiwxNWMwLjcsMC43LDEuNywxLjEsMi43LDEuMWMwLjgsMCwxLjUtMC4yLDIuMS0wLjdsMi4zLDIuM0MxNSwxOC41LDEzLjUsMTksMTIsMTl6Ig0KCQkvPg0KPC9nPg0KPC9zdmc+DQo="
+                            width="22" height="22" />
+                        <div class="menu-opt-item-description" id="visuallyImpaired">
+                            Enable accessibility for visually impaired
+                        </div>
+                        <div class="menu-opt-item-enter">
+                            <div class="menu-opt-item-enter-wrp">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-opt-item middle-opt flex-box" tabindex="0" role="button" aria-labelledby="skipToMain">
+                        <img class="menu-opt-item-icon" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjQsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0i0KHQu9C+0LlfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxsOiMzQzQ1NjQ7fQ0KPC9zdHlsZT4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yMC41LDBIMy40QzEuNSwwLDAsMS41LDAsMy40djE3LjJDMCwyMi41LDEuNSwyNCwzLjQsMjRoMTcuMmMxLjksMCwzLjQtMS41LDMuNC0zLjVWMy40QzI0LDEuNSwyMi41LDAsMjAuNSwwDQoJeiBNMy40LDJoMTcuMmMwLjgsMCwxLjQsMC42LDEuMywxLjR2My45SDJWMy40QzIsMi42LDIuNiwyLDMuNCwyeiBNMiwyMC41VjkuM2g1LjNWMjJIMy40QzIuNiwyMiwyLDIxLjQsMiwyMC41eiBNMjAuNSwyMkg5LjNWOS4zDQoJaDEyLjZ2MTEuM0MyMS45LDIxLjQsMjEuMywyMiwyMC41LDIyeiIvPg0KPC9zdmc+DQo="
+                            width="22" height="22" />
+                        <div class="menu-opt-item-description" id="skipToMain">
+                            Skip to main content
+                        </div>
+                        <div class="menu-opt-item-enter">
+                            <div class="menu-opt-item-enter-wrp">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-opt-item last-opt flex-box" tabindex="0" role="button" aria-labelledby="openAccessibilityMenu">
+                        <img class="menu-opt-item-icon" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0i0KHQu9C+0LlfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxsOiMzQzQ1NjQ7fQ0KPC9zdHlsZT4NCjxnPg0KCTxnPg0KCQk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNiwxM0gyYy0wLjYsMC0xLTAuNC0xLTFzMC40LTEsMS0xaDRjMC42LDAsMSwwLjQsMSwxUzYuNiwxMyw2LDEzeiIvPg0KCTwvZz4NCgk8Zz4NCgkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTYsNEgyQzEuNCw0LDEsMy42LDEsM3MwLjQtMSwxLTFoNGMwLjYsMCwxLDAuNCwxLDFTNi42LDQsNiw0eiIvPg0KCTwvZz4NCgk8Zz4NCgkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTYsMjJIMmMtMC42LDAtMS0wLjQtMS0xczAuNC0xLDEtMWg0YzAuNiwwLDEsMC40LDEsMVM2LjYsMjIsNiwyMnoiLz4NCgk8L2c+DQoJPGc+DQoJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xNCwxM2gtNGMtMC42LDAtMS0wLjQtMS0xczAuNC0xLDEtMWg0YzAuNiwwLDEsMC40LDEsMVMxNC42LDEzLDE0LDEzeiIvPg0KCTwvZz4NCgk8Zz4NCgkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTE0LDRoLTRDOS40LDQsOSwzLjYsOSwzczAuNC0xLDEtMWg0YzAuNiwwLDEsMC40LDEsMVMxNC42LDQsMTQsNHoiLz4NCgk8L2c+DQoJPGc+DQoJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xNCwyMmgtNGMtMC42LDAtMS0wLjQtMS0xczAuNC0xLDEtMWg0YzAuNiwwLDEsMC40LDEsMVMxNC42LDIyLDE0LDIyeiIvPg0KCTwvZz4NCgk8Zz4NCgkJPHBhdGggY2xhc3M9InN0MCIgZD0iTTIyLDEzaC00Yy0wLjYsMC0xLTAuNC0xLTFzMC40LTEsMS0xaDRjMC42LDAsMSwwLjQsMSwxUzIyLjYsMTMsMjIsMTN6Ii8+DQoJPC9nPg0KCTxnPg0KCQk8cGF0aCBjbGFzcz0ic3QwIiBkPSJNMjIsNGgtNGMtMC42LDAtMS0wLjQtMS0xczAuNC0xLDEtMWg0YzAuNiwwLDEsMC40LDEsMVMyMi42LDQsMjIsNHoiLz4NCgk8L2c+DQoJPGc+DQoJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0yMiwyMmgtNGMtMC42LDAtMS0wLjQtMS0xczAuNC0xLDEtMWg0YzAuNiwwLDEsMC40LDEsMVMyMi42LDIyLDIyLDIyeiIvPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K"
+                            width="22" height="22" />
+                        <div class="menu-opt-item-description" id="openAccessibilityMenu">
+                            Open the accessibility menu
+                        </div>
+                        <div class="menu-opt-item-enter">
+                            <div class="menu-opt-item-enter-wrp">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="widget-footer first-tab-footer"></div>
+        </div>
+    </div>
+
+    <script>
+        renderFirstTabContent();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+No Content: webpack:///./view/section/result/footer/footer-item/index.js

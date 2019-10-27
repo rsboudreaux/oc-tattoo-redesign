@@ -1,0 +1,1 @@
+No Content: webpack:///./view/section/stalk/sprite-data.js

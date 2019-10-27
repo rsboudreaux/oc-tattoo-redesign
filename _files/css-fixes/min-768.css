@@ -1,0 +1,45 @@
+@media only screen and (min-width: 768) {
+    ::-webkit-scrollbar {
+        width: 6px;
+        height: 4px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #0f0f0f;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #fff;
+    }
+    ::-webkit-resizer {
+        background: #0f0f0f;
+    }
+    ::-webkit-scrollbar-corner {
+        background: #0f0f0f;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .tattoo-size {
+        width: 100%;
+    }
+    .spacer-tattoo {
+        display: none;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .tattoo-gap-big {
+        height: 0;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .news-size {
+        width: 100%;
+        margin-right: 0;
+    }
+    .news-size .masonry-module {
+        width: 250px;
+    }
+}
+@media only screen and (min-width: 768) {
+    body.home #intro {
+        overflow-y: hidden;
+    }
+}

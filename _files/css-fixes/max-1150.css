@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1150px) {
+    .grid-sizer,
+    .masonry-grid {
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    .tattoo-size {
+        width: 29%;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    .news-size {
+        width: 45%;
+    }
+}

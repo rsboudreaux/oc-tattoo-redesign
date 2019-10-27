@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Gudea';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Gudea Italic'), local('Gudea-Italic'), url(../fonts.gstatic.com/s/gudea/v9/neILzCqgsI0mp9CNzoKmNg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Gudea';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gudea'), url(../fonts.gstatic.com/s/gudea/v9/neIFzCqgsI0mp9CI_oU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Gudea';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Gudea Bold'), local('Gudea-Bold'), url(../fonts.gstatic.com/s/gudea/v9/neIIzCqgsI0mp9gz25WBFqk.ttf) format('truetype');
+}

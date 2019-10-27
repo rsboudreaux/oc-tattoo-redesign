@@ -1,0 +1,223 @@
+.big-stripe {
+    z-index: 1;
+}
+.parallax-container {
+    z-index: 1;
+}
+.parallax-image {
+    z-index: 1;
+}
+.image-nav-tattoo {
+    z-index: 1;
+}
+.image-nav-studio {
+    z-index: 1;
+}
+.image-nav-news {
+    z-index: 1;
+}
+.image-nav-merch {
+    z-index: 1;
+}
+.image-nav-contacts {
+    z-index: 1;
+}
+.massive-typo-intro {
+    z-index: 1;
+}
+.nav-stripe {
+    z-index: 1;
+}
+.icon-cube::after {
+    z-index: 1;
+}
+.input {
+    z-index: 1;
+}
+.icon-cube::before {
+    z-index: 2;
+}
+nav a span {
+    z-index: 3;
+}
+.input-form {
+    z-index: 3;
+}
+masonry-container {
+    z-index: 3;
+}
+.top-nav {
+    z-index: 5;
+}
+.top-copy-tattoo {
+    z-index: 5;
+}
+.intro-stripe-1 {
+    z-index: 5;
+}
+.intro-stripe-2 {
+    z-index: 5;
+}
+.intro-stripe-3 {
+    z-index: 5;
+}
+.intro-stripe-4 {
+    z-index: 5;
+}
+.intro-stripe-5 {
+    z-index: 5;
+}
+.top-copy {
+    z-index: 5;
+}
+.intro-stripe-6 {
+    z-index: 5;
+}
+.tattoo-count {
+    z-index: 9;
+}
+.tattoo-share {
+    z-index: 9;
+}
+.underline-form {
+    z-index: 9;
+}
+.tattoo-left {
+    z-index: 9;
+}
+.top-container.container-tattoo {
+    z-index: 9;
+}
+.top-image {
+    z-index: 9;
+}
+.image.image-intro-opening {
+    z-index: 12;
+}
+.image-intro {
+    z-index: 12;
+}
+.full-link {
+    z-index: 20;
+}
+.drag-arrow {
+    z-index: 91;
+}
+.image-nav-default {
+    z-index: 99;
+}
+.arrow-newsletter {
+    z-index: 99;
+}
+.tattoo-cover {
+    z-index: 99;
+}
+.drag-me {
+    z-index: 99;
+}
+div.cs-select {
+    z-index: 100;
+}
+.cs-skin-elastic>span {
+    z-index: 100;
+}
+div.cs-active {
+    z-index: 200;
+}
+.vertical-text {
+    z-index: 999;
+}
+.line-scroll-down-container {
+    z-index: 999;
+}
+.line-loader-container {
+    z-index: 999;
+}
+.news-category {
+    z-index: 999;
+}
+.tattoo.nav {
+    z-index: 999;
+}
+.tattoo-back {
+    z-index: 999;
+}
+.image-cover-intro {
+    z-index: 999;
+}
+.image-cover-intro-scroll {
+    z-index: 999;
+}
+.highlight.highlight-intro {
+    z-index: 999;
+}
+.hamburger-inner {
+    z-index: 999;
+}
+header {
+    z-index: 2000;
+}
+.lang-selector {
+    z-index: 9999;
+}
+.vertical-text-intro {
+    z-index: 9999;
+}
+.vertical-text-intro-new {
+    z-index: 9999;
+}
+.image-cover {
+    z-index: 9999;
+}
+.intro-icon {
+    z-index: 9999;
+}
+
+.intro-section {
+    z-index: 9999;
+}
+.filter-bar-container {
+    z-index: 10000;
+}
+footer {
+    z-index: 99999;
+}
+.intro-indicator {
+    z-index: 99999;
+}
+#loader {
+    z-index: 99999;
+}
+.pace {
+    z-index: 99999;
+}
+.pace .pace-progress {
+    z-index: 99999;
+}
+.title {
+    z-index: 99999;
+}
+body.home header {
+    z-index: 99999;
+}
+.hamburger-box {
+    z-index: 99999 !important;
+}
+#navigation {
+    z-index: 9999991 !important;
+}
+.hamburger-container {
+    z-index: 9999999 !important;
+}
+.cover-gold {
+    z-index: 999999991;
+}
+.cover-red {
+    z-index: 999999993;
+}
+.cover-dark {
+    z-index: 999999995;
+}
+.cover-main {
+    z-index: 999999997;
+}

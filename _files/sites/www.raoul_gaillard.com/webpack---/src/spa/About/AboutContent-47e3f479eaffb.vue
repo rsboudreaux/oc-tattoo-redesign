@@ -1,0 +1,16 @@
+exports = module.exports = require("../../../node_modules/css-loader/lib/css-base.js")();
+// imports
+
+
+// module
+exports.push([module.id, ".about-content{max-width:27em;margin:auto;font-size:20px;font-family:PlayfairDisplay;text-align:center;color:#fff}.about-content__title{font-style:italic;text-align:left;letter-spacing:.12em}.about-content__big-title{font-size:80px;font-family:SorrenMedium;text-transform:uppercase;font-style:normal;letter-spacing:.12em;display:inline-block;vertical-align:middle;margin:0 10px;background-image:linear-gradient(#ffc3ca,#a8a9e7);-webkit-background-clip:text;-webkit-text-fill-color:transparent}.about-content__content{line-height:1.8em;font-size:16px;margin:3.5em 0}.about-content__content-container{margin:0 auto;font-size:14px;max-width:35em;text-align:left}.about-content__link{font-style:italic;text-decoration:none;color:#828ed4;transition:color .4s ease}.about-content__link:hover{color:#b0b7e4}.about-content__mobile-message{display:none;font-size:14px;margin-top:3em;font-style:italic;text-transform:uppercase;letter-spacing:.2em;line-height:1.5em;color:#9ab8dc}.about-content__social-title{font-size:15px;margin-bottom:.6em;letter-spacing:.1em;font-style:italic;color:#828ed4}.about-content__network{display:inline-block}.about-content__network:after{content:\"-\";color:#828ed4;margin:0 .5em}.about-content__network:last-child:after{display:none;content:\"\"}.about-content__network__link{text-decoration:none;display:inline-block;vertical-align:middle;color:#828ed4;font-family:SorrenMedium;text-transform:uppercase;letter-spacing:.1em;font-size:32px;line-height:1.5em;transition:all .4s ease}.about-content__network__link:hover{color:#b0b7e4}@media screen and (min-width:760px) and (max-width:960px){.about-content__social-title{font-size:15px}.about-content__mobile-message{display:block}.about-content{font-size:14px;margin:3em;text-align:left;max-width:none;display:block;visibility:visible;opacity:1}.about-content__content-container{font-size:15px}.about-content__big-title{font-size:60px}.about-content__title{font-size:24px;letter-spacing:.08em;line-height:3em}}@media screen and (max-width:760px){.about-content__social-title{font-size:15px}.about-content__mobile-message{display:block}.about-content{font-size:14px;margin:3em 2em;text-align:left;max-width:none;display:block;visibility:visible;opacity:1}.about-content__content-container{font-size:14px}.about-content__big-title{font-size:36px}.about-content__title{font-size:19px;letter-spacing:.02em;line-height:2em}}@media screen and (min-width:961px) and (max-width:1300px){.about-content__social-title{font-size:14px}.about-content{max-width:29em}.about-content__content-container{font-size:16px}.about-content__big-title{font-size:50px}.about-content__title{font-size:20px;line-height:3em}}@media screen and (max-width:340px){.about-content__big-title{font-size:30px}}@media screen and (max-width:960px){.about-content__content-container{max-width:none}}", ""]);
+
+// exports
+
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./~/css-loader!./~/vue-loader/lib/style-rewriter.js?id=data-v-b41ef4ba!./~/postcss-loader!./~/sass-loader!./~/vue-loader/lib/selector.js?type=styles&index=0!./src/spa/About/AboutContent.vue
+// module id = 127
+// module chunks = 0

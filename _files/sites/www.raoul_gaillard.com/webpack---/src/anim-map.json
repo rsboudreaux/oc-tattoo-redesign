@@ -1,0 +1,8 @@
+module.exports = {"from":{"home":{"to":{"work":{"appear":"appearDown","leave":"leaveUp"},"case-study":{"appear":"appearDown","leave":"leaveUp"},"about":{"appear":"appearForward","leave":"leaveForward"}}},"work":{"to":{"home":{"appear":"appearUp","leave":"leaveDown"},"about":{"appear":"appearForward","leave":"leaveForward"}}},"about":{"to":{"home":{"appear":"appearBackward","leave":"leaveBackward"},"work":{"appear":"appearBackward","leave":"leaveBackward"},"case-study":{"appear":"appearBackward","leave":"leaveBackward"}}},"case-study":{"to":{"home":{"appear":"appearUp","leave":"leaveDown"},"about":{"appear":"appearForward","leave":"leaveForward"}}}},"default":{"appear":"appearAnim","leave":"leaveAnim"}}
+
+
+//////////////////
+// WEBPACK FOOTER
+// ./src/anim-map.json
+// module id = 73
+// module chunks = 0

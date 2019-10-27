@@ -1,0 +1,14 @@
+#text {
+  margin: 0;
+  font-size: 100px;
+  animation: reveal 2s forwards;
+}
+
+@keyframes reveal {
+  from {
+    clip-path: inset(0 0 0 100%);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}

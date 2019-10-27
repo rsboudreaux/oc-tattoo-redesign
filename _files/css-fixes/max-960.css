@@ -1,0 +1,167 @@
+@media only screen and (max-width: 960px) {
+    h1 {
+        font-size: 80px;
+        line-height: 70px;
+        letter-spacing: -2px;
+        padding-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 960px) {
+    header {
+        width: 100%;
+        background: #000;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .nav-image {
+        display: none;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .opening {
+        height: 70vh;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .top-copy {
+        width: calc(100%);
+    }
+}
+@media only screen and (max-width: 960px) {
+    .top-image {
+        display: none;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .big-stripe {
+        position: absolute;
+        left: 0;
+        width: 80vw;
+        max-width: 80vw;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .image-cover {
+        display: none;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .section-right {
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+    .section-left {
+        -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+}
+@media only screen and (max-width: 960px) {
+    .text-area {
+        padding: 100px 0;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .text-block {
+        margin: 100px auto;
+        width: calc(100% - 200px);
+        padding: 700px 100px 100px 100px;
+    }
+    @media only screen and (max-width: 960px) {
+        .footer-nav nav a span {
+            margin-left: 25px;
+        }
+    }
+    @media only screen and (max-width: 960px) {
+        .filter-container {
+            display: none;
+        }
+    }
+    @media only screen and (max-width: 960px) {
+        .tattoo-size {
+            width: 45%;
+            margin-right: 0;
+        }
+    }
+    @media only screen and (max-width: 960px) {
+        .tattoo-gap-big {
+            height: 50px;
+        }
+        .tattoo-gap-small {
+            height: 0;
+        }
+    }
+    @media only screen and (max-width: 960px) {
+        .news-size {
+            width: 45%;
+            margin-right: 0;
+        }
+    }
+    @media only screen and (max-width: 960px) {
+        .news-more {
+            margin-top: -60px;
+        }
+    }
+    @media only screen and (max-width: 960px) {
+        .tattoo-detail-container {
+            width: auto;
+            height: auto;
+        }
+        .tattoo-cover {
+            display: none;
+        }
+        .tattoo-left {
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            width: 80vw;
+            left: 10vw;
+            margin: 10vw 0;
+            height: 900px;
+            z-index: 9;
+        }
+        .tattoo-right {
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            width: 100vw;
+            height: 500px;
+            z-index: 9;
+        }
+    }
+    @media only screen and (max-width: 960px) {
+        .top-copy-tattoo {
+            height: 200px;
+            top: -120px;
+        }
+        .top-copy-tattoo h1 {
+            font-size: 55px;
+            line-height: 50px;
+            padding: 0;
+        }
+        .top-copy-tattoo h2 {
+            color: #3c3c3c;
+        }
+    }
+    @media only screen and (max-width: 960px) {
+        #intro {
+            width: 2500px;
+        }
+        .intro-section {
+            width: 350px;
+        }
+    }
+    @media only screen and (max-width: 960px) {
+        .image-cover-intro {
+            width: 200px;
+            top: calc(50% - 200px);
+            left: calc(50% - 100px);
+            height: 400px;
+        }
+    }
+}
